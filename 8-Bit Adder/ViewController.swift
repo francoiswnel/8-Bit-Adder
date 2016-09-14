@@ -70,211 +70,211 @@ class ViewController: UIViewController {
 
 
     // Input A
-    @IBAction func rX1_Action(sender: UIButton) {
+    @IBAction func rX1_Action(_ sender: UIButton) {
         registerX[0] = true
         update()
     }
 
-    @IBAction func rX1A_Action(sender: UIButton) {
+    @IBAction func rX1A_Action(_ sender: UIButton) {
         registerX[0] = false
         update()
     }
 
-    @IBAction func rX2_Action(sender: UIButton) {
+    @IBAction func rX2_Action(_ sender: UIButton) {
         registerX[1] = true
         update()
     }
 
-    @IBAction func rX2A_Action(sender: UIButton) {
+    @IBAction func rX2A_Action(_ sender: UIButton) {
         registerX[1] = false
         update()
     }
 
-    @IBAction func rX4_Action(sender: UIButton) {
+    @IBAction func rX4_Action(_ sender: UIButton) {
         registerX[2] = true
         update()
     }
 
-    @IBAction func rX4A_Action(sender: UIButton) {
+    @IBAction func rX4A_Action(_ sender: UIButton) {
         registerX[2] = false
         update()
     }
 
-    @IBAction func rX8_Action(sender: UIButton) {
+    @IBAction func rX8_Action(_ sender: UIButton) {
         registerX[3] = true
         update()
     }
 
-    @IBAction func rX8A_Action(sender: UIButton) {
+    @IBAction func rX8A_Action(_ sender: UIButton) {
         registerX[3] = false
         update()
     }
 
-    @IBAction func rX16_Action(sender: UIButton) {
+    @IBAction func rX16_Action(_ sender: UIButton) {
         registerX[4] = true
         update()
     }
 
-    @IBAction func rX16A_Action(sender: UIButton) {
+    @IBAction func rX16A_Action(_ sender: UIButton) {
         registerX[4] = false
         update()
     }
 
-    @IBAction func rX32_Action(sender: UIButton) {
+    @IBAction func rX32_Action(_ sender: UIButton) {
         registerX[5] = true
         update()
     }
 
-    @IBAction func rX32A_Action(sender: UIButton) {
+    @IBAction func rX32A_Action(_ sender: UIButton) {
         registerX[5] = false
         update()
     }
 
-    @IBAction func rX64_Action(sender: UIButton) {
+    @IBAction func rX64_Action(_ sender: UIButton) {
         registerX[6] = true
         update()
     }
 
-    @IBAction func rX64A_Action(sender: UIButton) {
+    @IBAction func rX64A_Action(_ sender: UIButton) {
         registerX[6] = false
         update()
     }
 
-    @IBAction func rX128_Action(sender: UIButton) {
+    @IBAction func rX128_Action(_ sender: UIButton) {
         registerX[7] = true
         update()
     }
 
-    @IBAction func rX128A_Action(sender: UIButton) {
+    @IBAction func rX128A_Action(_ sender: UIButton) {
         registerX[7] = false
         update()
     }
 
 
     // Input B
-    @IBAction func rY1_Action(sender: UIButton) {
+    @IBAction func rY1_Action(_ sender: UIButton) {
         registerY[0] = true
         update()
     }
 
-    @IBAction func rY1A_Action(sender: UIButton) {
+    @IBAction func rY1A_Action(_ sender: UIButton) {
         registerY[0] = false
         update()
     }
 
-    @IBAction func rY2_Action(sender: UIButton) {
+    @IBAction func rY2_Action(_ sender: UIButton) {
         registerY[1] = true
         update()
     }
 
-    @IBAction func rY2A_Action(sender: UIButton) {
+    @IBAction func rY2A_Action(_ sender: UIButton) {
         registerY[1] = false
         update()
     }
 
-    @IBAction func rY4_Action(sender: UIButton) {
+    @IBAction func rY4_Action(_ sender: UIButton) {
         registerY[2] = true
         update()
     }
 
-    @IBAction func rY4A_Action(sender: UIButton) {
+    @IBAction func rY4A_Action(_ sender: UIButton) {
         registerY[2] = false
         update()
     }
 
-    @IBAction func rY8_Action(sender: UIButton) {
+    @IBAction func rY8_Action(_ sender: UIButton) {
         registerY[3] = true
         update()
     }
 
-    @IBAction func rY8A_Action(sender: UIButton) {
+    @IBAction func rY8A_Action(_ sender: UIButton) {
         registerY[3] = false
         update()
     }
 
-    @IBAction func rY16_Action(sender: UIButton) {
+    @IBAction func rY16_Action(_ sender: UIButton) {
         registerY[4] = true
         update()
     }
 
-    @IBAction func rY16A_Action(sender: UIButton) {
+    @IBAction func rY16A_Action(_ sender: UIButton) {
         registerY[4] = false
         update()
     }
 
-    @IBAction func rY32_Action(sender: UIButton) {
+    @IBAction func rY32_Action(_ sender: UIButton) {
         registerY[5] = true
         update()
     }
 
-    @IBAction func rY32A_Action(sender: UIButton) {
+    @IBAction func rY32A_Action(_ sender: UIButton) {
         registerY[5] = false
         update()
     }
 
-    @IBAction func rY64_Action(sender: UIButton) {
+    @IBAction func rY64_Action(_ sender: UIButton) {
         registerY[6] = true
         update()
     }
 
-    @IBAction func rY64A_Action(sender: UIButton) {
+    @IBAction func rY64A_Action(_ sender: UIButton) {
         registerY[6] = false
         update()
     }
 
-    @IBAction func rY128_Action(sender: UIButton) {
+    @IBAction func rY128_Action(_ sender: UIButton) {
         registerY[7] = true
         update()
     }
 
-    @IBAction func rY128A_Action(sender: UIButton) {
+    @IBAction func rY128A_Action(_ sender: UIButton) {
         registerY[7] = false
         update()
     }
 
 
     // Function
-    @IBAction func addButton_Action(sender: UIButton) {
+    @IBAction func addButton_Action(_ sender: UIButton) {
         selectedFunction = [true, false, false, false]
         update()
     }
 
-    @IBAction func addButtonA_Action(sender: UIButton) {
+    @IBAction func addButtonA_Action(_ sender: UIButton) {
         selectedFunction = [true, false, false, false]
         update()
     }
 
-    @IBAction func subButton_Action(sender: UIButton) {
+    @IBAction func subButton_Action(_ sender: UIButton) {
         selectedFunction = [false, true, false, false]
         update()
     }
 
-    @IBAction func subButtonA_Action(sender: UIButton) {
+    @IBAction func subButtonA_Action(_ sender: UIButton) {
         selectedFunction = [false, true, false, false]
         update()
     }
 
-    @IBAction func andButton_Action(sender: UIButton) {
+    @IBAction func andButton_Action(_ sender: UIButton) {
         selectedFunction = [false, false, true, false]
         update()
     }
 
-    @IBAction func andButtonA_Action(sender: UIButton) {
+    @IBAction func andButtonA_Action(_ sender: UIButton) {
         selectedFunction = [false, false, true, false]
         update()
     }
 
-    @IBAction func orButton_Action(sender: UIButton) {
+    @IBAction func orButton_Action(_ sender: UIButton) {
         selectedFunction = [false, false, false, true]
         update()
     }
 
-    @IBAction func orButtonA_Action(sender: UIButton) {
+    @IBAction func orButtonA_Action(_ sender: UIButton) {
         selectedFunction = [false, false, false, true]
         update()
     }
 
-    func addBytes(inout inputByte1: [Bool], inout inputByte2: [Bool], inout outputByte: [Bool], inout carryByte: [Bool]) {
+    func addBytes(_ inputByte1: inout [Bool], inputByte2: inout [Bool], outputByte: inout [Bool], carryByte: inout [Bool]) {
         for i in 0...7 {
             outputByte[i] = (inputByte1[i] != inputByte2[i]) != carryByte[i]
             carryByte[i+1] = (inputByte1[i] && inputByte2[i]) || ((inputByte1[i] != inputByte2[i]) && carryByte[i])
@@ -282,7 +282,7 @@ class ViewController: UIViewController {
         outputByte[8] = carryByte[8]
     }
 
-    func subtractBytes(inout inputByte1: [Bool], inout inputByte2: [Bool], inout outputByte: [Bool], inout borrowByte: [Bool]) {
+    func subtractBytes(_ inputByte1: inout [Bool], inputByte2: inout [Bool], outputByte: inout [Bool], borrowByte: inout [Bool]) {
         for i in 0...7 {
             outputByte[i] = (inputByte1[i] != inputByte2[i]) != borrowByte[i]
             borrowByte[i+1] = !inputByte1[i] && (inputByte2[i] != borrowByte[i]) || inputByte2[i] && borrowByte[i]
@@ -290,21 +290,21 @@ class ViewController: UIViewController {
         outputByte[8] = borrowByte[8]
     }
 
-    func andBytes(inout inputByte1: [Bool], inout inputByte2: [Bool], inout outputByte: [Bool]) {
+    func andBytes(_ inputByte1: inout [Bool], inputByte2: inout [Bool], outputByte: inout [Bool]) {
         for i in 0...7 {
             outputByte[i] = inputByte1[i] && inputByte2[i]
         }
         outputByte[8] = false
     }
 
-    func orBytes(inout inputByte1: [Bool], inout inputByte2: [Bool], inout outputByte: [Bool]) {
+    func orBytes(_ inputByte1: inout [Bool], inputByte2: inout [Bool], outputByte: inout [Bool]) {
         for i in 0...7 {
             outputByte[i] = inputByte1[i] || inputByte2[i]
         }
         outputByte[8] = false
     }
 
-    func xorBytes(inout inputByte1: [Bool], inout inputByte2: [Bool], inout outputByte: [Bool]) {
+    func xorBytes(_ inputByte1: inout [Bool], inputByte2: inout [Bool], outputByte: inout [Bool]) {
         for i in 0...7 {
             outputByte[i] = inputByte1[i] != inputByte2[i]
         }
@@ -338,187 +338,187 @@ class ViewController: UIViewController {
 
     func updateDisplay() {
         if output[0] {
-            d1.hidden = false
+            d1.isHidden = false
         }
         else {
-            d1.hidden = true
+            d1.isHidden = true
         }
         if output[1] {
-            d2.hidden = false
+            d2.isHidden = false
         }
         else {
-            d2.hidden = true
+            d2.isHidden = true
         }
         if output[2] {
-            d4.hidden = false
+            d4.isHidden = false
         }
         else {
-            d4.hidden = true
+            d4.isHidden = true
         }
         if output[3] {
-            d8.hidden = false
+            d8.isHidden = false
         }
         else {
-            d8.hidden = true
+            d8.isHidden = true
         }
         if output[4] {
-            d16.hidden = false
+            d16.isHidden = false
         }
         else {
-            d16.hidden = true
+            d16.isHidden = true
         }
         if output[5] {
-            d32.hidden = false
+            d32.isHidden = false
         }
         else {
-            d32.hidden = true
+            d32.isHidden = true
         }
         if output[6] {
-            d64.hidden = false
+            d64.isHidden = false
         }
         else {
-            d64.hidden = true
+            d64.isHidden = true
         }
         if output[7] {
-            d128.hidden = false
+            d128.isHidden = false
         }
         else {
-            d128.hidden = true
+            d128.isHidden = true
         }
         if output[8] {
-            d256.hidden = false
+            d256.isHidden = false
         }
         else {
-            d256.hidden = true
+            d256.isHidden = true
         }
     }
 
     func updateRegisterX() {
         if registerX[0] {
-            rX1A.hidden = false
+            rX1A.isHidden = false
         }
         else {
-            rX1A.hidden = true
+            rX1A.isHidden = true
         }
         if registerX[1] {
-            rX2A.hidden = false
+            rX2A.isHidden = false
         }
         else {
-            rX2A.hidden = true
+            rX2A.isHidden = true
         }
         if registerX[2] {
-            rX4A.hidden = false
+            rX4A.isHidden = false
         }
         else {
-            rX4A.hidden = true
+            rX4A.isHidden = true
         }
         if registerX[3] {
-            rX8A.hidden = false
+            rX8A.isHidden = false
         }
         else {
-            rX8A.hidden = true
+            rX8A.isHidden = true
         }
         if registerX[4] {
-            rX16A.hidden = false
+            rX16A.isHidden = false
         }
         else {
-            rX16A.hidden = true
+            rX16A.isHidden = true
         }
         if registerX[5] {
-            rX32A.hidden = false
+            rX32A.isHidden = false
         }
         else {
-            rX32A.hidden = true
+            rX32A.isHidden = true
         }
         if registerX[6] {
-            rX64A.hidden = false
+            rX64A.isHidden = false
         }
         else {
-            rX64A.hidden = true
+            rX64A.isHidden = true
         }
         if registerX[7] {
-            rX128A.hidden = false
+            rX128A.isHidden = false
         }
         else {
-            rX128A.hidden = true
+            rX128A.isHidden = true
         }
     }
 
     func updateRegisterY() {
         if registerY[0] {
-            rY1A.hidden = false
+            rY1A.isHidden = false
         }
         else {
-            rY1A.hidden = true
+            rY1A.isHidden = true
         }
         if registerY[1] {
-            rY2A.hidden = false
+            rY2A.isHidden = false
         }
         else {
-            rY2A.hidden = true
+            rY2A.isHidden = true
         }
         if registerY[2] {
-            rY4A.hidden = false
+            rY4A.isHidden = false
         }
         else {
-            rY4A.hidden = true
+            rY4A.isHidden = true
         }
         if registerY[3] {
-            rY8A.hidden = false
+            rY8A.isHidden = false
         }
         else {
-            rY8A.hidden = true
+            rY8A.isHidden = true
         }
         if registerY[4] {
-            rY16A.hidden = false
+            rY16A.isHidden = false
         }
         else {
-            rY16A.hidden = true
+            rY16A.isHidden = true
         }
         if registerY[5] {
-            rY32A.hidden = false
+            rY32A.isHidden = false
         }
         else {
-            rY32A.hidden = true
+            rY32A.isHidden = true
         }
         if registerY[6] {
-            rY64A.hidden = false
+            rY64A.isHidden = false
         }
         else {
-            rY64A.hidden = true
+            rY64A.isHidden = true
         }
         if registerY[7] {
-            rY128A.hidden = false
+            rY128A.isHidden = false
         }
         else {
-            rY128A.hidden = true
+            rY128A.isHidden = true
         }
     }
 
     func updateFunctionButtons() {
         if selectedFunction[0] {
-            addButtonA.hidden = false
+            addButtonA.isHidden = false
         }
         else {
-            addButtonA.hidden = true
+            addButtonA.isHidden = true
         }
         if selectedFunction[1] {
-            subButtonA.hidden = false
+            subButtonA.isHidden = false
         }
         else {
-            subButtonA.hidden = true
+            subButtonA.isHidden = true
         }
         if selectedFunction[2] {
-            andButtonA.hidden = false
+            andButtonA.isHidden = false
         }
         else {
-            andButtonA.hidden = true
+            andButtonA.isHidden = true
         }
         if selectedFunction[3] {
-            orButtonA.hidden = false
+            orButtonA.isHidden = false
         }
         else {
-            orButtonA.hidden = true
+            orButtonA.isHidden = true
         }
     }
 
